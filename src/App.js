@@ -21,8 +21,9 @@ function App() {
         </div>
         <Routes>
             <Route path={"SoldProducts"} element={<SoldProducts transaction={transaction} setTransaction={setTransaction} />}/>
-            <Route path={"AddProducts"} element={<AddProducts/>}/>
             <Route path={"Transactions"} element={<Transactions transaction={transaction}/>}/>
+            <Route path={"AddProducts"} element={<AddProducts/>}/>
+
         </Routes>
 
     </BrowserRouter>
