@@ -11,6 +11,8 @@ function App() {
 
         <div>
             <h1>Electronics Shop</h1>
+
+
             <nav>
                 <ul>
                     <li><Link to="/SoldProducts">Sold Products</Link></li>
@@ -20,7 +22,8 @@ function App() {
             </nav>
         </div>
         <Routes>
-            <Route path={"SoldProducts"} element={<SoldProducts transaction={transaction} setTransaction={setTransaction} />}/>
+            <Route path={"SoldProducts"}
+                   element={<SoldProducts transaction={transaction} setTransaction={setTransaction}/>}/>
             <Route path={"Transactions"} element={<Transactions transaction={transaction}/>}/>
             <Route path={"AddProducts"} element={<AddProducts/>}/>
 
