@@ -32,6 +32,11 @@ const SoldProducts = ({transaction, setTransaction}) => {
             name: "Cable",
             price: 499,
         },
+        {
+            id: "6",
+            name: "Cardboard",
+            price: 499,
+        },
     ])
     const CalculateSum = () => {
         let TotalAmount = 0;
